@@ -1,6 +1,6 @@
 # Chart.yaml v2 reference: https://helm.sh/docs/topics/charts/#the-chartyaml-file
 apiVersion: v2
-name: sds-nginx-svc-jhub
+name: sds-ngix-svc-jhub
 version: 0.0.1-set.by.chartpress
 appVersion: "4.0.2"
 description: JupyterHub for SDS 

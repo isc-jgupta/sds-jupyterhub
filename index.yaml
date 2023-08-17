@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: Jupyter SDS Service
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-17T15:18:47.1529467-04:00"
+    created: "2023-08-17T15:31:28.2607223-04:00"
     description: JupyterHub for SDS
     digest: 680fd1de694df64253a0ce9b719f98e1fd33aaa24c11a8521aac1b2c01f797aa
     home: https://z2jh.jupyter.org
@@ -25,4 +25,29 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-nginx-svc-jhub-0.0.1-set.by.chartpress.tgz
     version: 0.0.1-set.by.chartpress
-generated: "2023-08-17T15:18:47.150603-04:00"
+  sds-ngix-svc-jhub:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Jupyter SDS Service
+    apiVersion: v2
+    appVersion: 4.0.2
+    created: "2023-08-17T15:31:28.2649106-04:00"
+    description: JupyterHub for SDS
+    digest: f5727199a081200afd9ac38293fa9dfb85c63d68a5402f8df174c47237fcf310
+    home: https://z2jh.jupyter.org
+    icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: sds-ngix-svc-jhub
+    sources:
+    - C:\Users\jgupta\git-sds\helm-jhub\jupyterhub
+    type: application
+    urls:
+    - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-0.0.1-set.by.chartpress.tgz
+    version: 0.0.1-set.by.chartpress
+generated: "2023-08-17T15:31:28.2578118-04:00"
