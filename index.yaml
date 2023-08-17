@@ -7,9 +7,9 @@ entries:
       intersystems/sds-title: Jupyter SDS Service
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-17T11:14:05.4981451-04:00"
+    created: "2023-08-17T11:31:40.5674351-04:00"
     description: JupyterHub for SDS
-    digest: 6b7a2951fae322c6033cbe664361c06e82c232aa53a5a776fe77a4d8b78725fd
+    digest: 1f5e3c2af69216e86dc7670baf19b0d592bf2a3a865f0169a3f911bef41e421e
     home: https://z2jh.jupyter.org
     icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
     keywords:
@@ -28,4 +28,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-nginx-svc-jhub-0.0.1-set.by.chartpress.tgz
     version: 0.0.1-set.by.chartpress
-generated: "2023-08-17T11:14:05.4825395-04:00"
+generated: "2023-08-17T11:31:40.56525-04:00"
