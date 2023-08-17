@@ -4,7 +4,8 @@ name: sds-nginx-svc-jhub
 version: 0.0.1-set.by.chartpress
 appVersion: "4.0.2"
 description: JupyterHub for SDS 
-keywords: [jupyter, jupyterhub, z2jh]
+type: application 
+#keywords: [jupyter, jupyterhub, z2jh]
 home: https://z2jh.jupyter.org
 sources: [C:\Users\jgupta\git-sds\helm-jhub\jupyterhub]
 icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
