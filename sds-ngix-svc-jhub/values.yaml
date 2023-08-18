@@ -194,7 +194,7 @@ proxy:
     loadBalancerSourceRanges: []
     enabled: "true"
     loadBalancerDNSName: ""
-    port: 10500
+    port: 10
 
   # chp relates to the proxy pod, which is responsible for routing traffic based
   # on dynamic configuration sent from JupyterHub to CHP's REST API.
@@ -422,7 +422,7 @@ singleuser:
 # scheduling relates to the user-scheduler pods and user-placeholder pods.
 scheduling:
   userScheduler:
-    enabled: true
+    enabled: false
     revisionHistoryLimit:
     replicas: 2
     logLevel: 4
