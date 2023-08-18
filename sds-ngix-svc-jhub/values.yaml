@@ -194,7 +194,7 @@ proxy:
     loadBalancerSourceRanges: []
     enabled: "true"
     loadBalancerDNSName: ""
-    port: 10500
+    port: 105123
 
   # chp relates to the proxy pod, which is responsible for routing traffic based
   # on dynamic configuration sent from JupyterHub to CHP's REST API.
@@ -672,7 +672,7 @@ cull:
   maxAge: 0 # --max-age
 
 debug:
-  enabled: false
+  enabled: true 
 
 global:
   safeToShowValues: false

@@ -13,7 +13,7 @@ maintainers:
   name: Erik Sundell
 - name: Simon Li
   url: https://github.com/manics/
-name: sds-ngix-svc-jhub
+name: sds-ngix-svc-jhub 
 sources:
 - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
 version: 3.0.3
