@@ -1,25 +1,44 @@
-# Chart.yaml v2 reference: https://helm.sh/docs/topics/charts/#the-chartyaml-file
 apiVersion: v2
-name: sds-ngix-svc-jhub
-version: 0.0.1-set.by.chartpress
-appVersion: "4.0.2"
-description: JupyterHub for SDS 
-type: application 
-#keywords: [jupyter, jupyterhub, z2jh]
+appVersion: 4.0.2
+description: Multi-user Jupyter installation
 home: https://z2jh.jupyter.org
-sources: [C:\Users\jgupta\git-sds\helm-jhub\jupyterhub]
-icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
-kubeVersion: ">=1.23.0-0"
+icon: https://isc-virajesh.github.io/jupy/sds-JupyterHub/
+keywords:
+- jupyter
+- jupyterhub
+- z2jh
+kubeVersion: '>=1.23.0-0'
 maintainers:
-  # Since it is a requirement of Artifact Hub to have specific maintainers
-  # listed, we have added some below, but in practice the entire JupyterHub team
-  # contributes to the maintenance of this Helm chart.
-  - name: Erik Sundell
-    email: erik@sundellopensource.se
-  - name: Simon Li
-    url: https://github.com/manics/
+- email: erik@sundellopensource.se
+  name: Erik Sundell
+- name: Simon Li
+  url: https://github.com/manics/
+name: sds-ngix-svc-jhub
+sources:
+- https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+version: 3.0.3
 annotations:
-  intersystems/sds-title: Jupyter SDS Service
+  intersystems/sds-title: JupyterHub
   intersystems/sds-organization: InterSystems Corporation
-  intersystems/sds-category: custom
-
+  intersystems/sds-category: sample
+  artifacthub.io/images: |
+    - image: jupyterhub/configurable-http-proxy:4.5.6
+      name: configurable-http-proxy
+    - image: jupyterhub/k8s-hub:3.0.1
+      name: k8s-hub
+    - image: jupyterhub/k8s-image-awaiter:3.0.1
+      name: k8s-image-awaiter
+    - image: jupyterhub/k8s-network-tools:3.0.1
+      name: k8s-network-tools
+    - image: jupyterhub/k8s-secret-sync:3.0.1
+      name: k8s-secret-sync
+    - image: jupyterhub/k8s-singleuser-sample:3.0.1
+      name: k8s-singleuser-sample
+    - image: registry.k8s.io/kube-scheduler:v1.26.7
+      name: kube-scheduler
+    - image: registry.k8s.io/pause:3.9
+      name: pause
+    - image: registry.k8s.io/pause:3.9
+      name: pause
+    - image: traefik:v2.10.4
+      name: traefik

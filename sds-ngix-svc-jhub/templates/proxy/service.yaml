@@ -62,7 +62,7 @@ spec:
     {{- end }}
     {{- if ne .Values.proxy.service.disableHttpPort true }}
     - name: http
-      port: 10001
+      port: {{ .Values.proxy.service.port }}
       targetPort: http
       {{- with .Values.proxy.service.nodePorts.http }}
       nodePort: {{ . }}

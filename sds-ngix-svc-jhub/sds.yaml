@@ -1,20 +1,22 @@
 apiVersion: v1
-
-compute:
-  computerSpecs:
-  - name: hub
-    label: Main Jupyter
-    nodeSelectorField: hub.nodeSelector 
-    cpuRequestField: hub.cpu
-    memoryRequestField: hub.memory
-  - name: proxy
-    label: Proxy Pod for JHub
-    nodeSelectorField: proxy.chp.nodeSelector 
-    cpuRequestField: proxy.cpu
-    memoryRequestField: proxy.memory
-  - name: hub
-    label: Main Jupyter
-    nodeSelectorField: hub.nodeSelector 
-    cpuRequestField: hub.cpu
-    memoryRequestField: hub.memory
-
+endpoints:
+- title: JupyterHub
+  icon: bpleditor.png
+  group: sample
+  description: Deployable jupyterhub service
+  type: browsing
+  url: http://{externalService.host}:{externalService.port}
+  contexts: 
+  - manage
+  visibility: external
+  presentation: link
+  externalService: proxy-public
+externalServicesDeclarations: 
+- name: proxy-public
+  type: loadBalancer
+  hostnameChartField: proxy.service.loadBalancerDNSName
+  loadBalancerPortChartField: proxy.service.port
+  enabled: false
+  enabledChartField: proxy.service.enabled
+  label: jupyterHub
+  description: JupyterHub service
