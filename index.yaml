@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: Jupyter SDS Service
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-18T11:52:21.0888479-04:00"
+    created: "2023-08-18T13:50:09.4887504-04:00"
     description: JupyterHub for SDS
     digest: 680fd1de694df64253a0ce9b719f98e1fd33aaa24c11a8521aac1b2c01f797aa
     home: https://z2jh.jupyter.org
@@ -53,9 +53,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-18T11:52:21.0976132-04:00"
+    created: "2023-08-18T13:50:09.503292-04:00"
     description: Multi-user Jupyter installation
-    digest: 9274645137674e90d06d837155f1f1662b22d808e859808b12b7e766b0200d31
+    digest: de1d1639332ed3860fc6b37b34fb60a7d6d8745057d6e5fa6962668bcdd1afc4
     home: https://z2jh.jupyter.org
     icon: https://isc-virajesh.github.io/jupy/sds-JupyterHub/
     keywords:
@@ -80,7 +80,7 @@ entries:
       intersystems/sds-title: Jupyter SDS Service
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-18T11:52:21.0928669-04:00"
+    created: "2023-08-18T13:50:09.4981893-04:00"
     description: JupyterHub for SDS
     digest: f5727199a081200afd9ac38293fa9dfb85c63d68a5402f8df174c47237fcf310
     home: https://z2jh.jupyter.org
@@ -98,4 +98,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-0.0.1-set.by.chartpress.tgz
     version: 0.0.1-set.by.chartpress
-generated: "2023-08-18T11:52:21.0802171-04:00"
+generated: "2023-08-18T13:50:09.4835337-04:00"
