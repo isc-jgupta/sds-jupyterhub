@@ -135,7 +135,7 @@ hub:
     # restarts it if needed. To become unready following startup serves no
     # purpose as there are no other pod to fallback to in our non-HA deployment.
     enabled: true
-    initialDelaySeconds: 0
+    initialDelaySeconds: 5
     periodSeconds: 2
     failureThreshold: 1000
     timeoutSeconds: 1
@@ -194,7 +194,7 @@ proxy:
     loadBalancerSourceRanges: []
     enabled: "true"
     loadBalancerDNSName: ""
-    port: 10
+    port: 10500
 
   # chp relates to the proxy pod, which is responsible for routing traffic based
   # on dynamic configuration sent from JupyterHub to CHP's REST API.
