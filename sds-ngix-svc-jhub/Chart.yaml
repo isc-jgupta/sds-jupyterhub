@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 4.0.2
 description: Multi-user Jupyter installation
 home: https://z2jh.jupyter.org
-icon: https://github.com/jg435/sds-jhub/blob/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
+icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
 keywords:
 - jupyter
 - jupyterhub
