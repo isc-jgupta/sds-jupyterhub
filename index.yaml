@@ -32,7 +32,7 @@ entries:
     description: Multi-user Jupyter installation
     digest: 194e06a17bda34f5c927f88c579f3529d391f0b34df8d3f7b90a742d32aba0a0
     home: https://z2jh.jupyter.org
-    icon: https://drive.google.com/file/d/10Bl_JSqcEqV5WtZuGsM_0d4TDLDYmNSc/view?usp=sharing
+    icon: https://isc-virajesh.github.io/jupy/sds-JupyterHub/
     keywords:
     - jupyter
     - jupyterhub
