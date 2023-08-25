@@ -5,7 +5,7 @@ endpoints:
   group: sample
   description: Deployable jupyterhub service
   type: browsing
-  url: http://{externalService.host}:{externalService.port}
+  url: http://localhost:10500
   contexts: 
   - manage
   visibility: external
