@@ -16,7 +16,7 @@ externalServicesDeclarations:
   type: loadBalancer
   hostnameChartField: proxy.service.loadBalancerDNSName
   loadBalancerPortChartField: proxy.service.port
-  enabled: false
+  enabled: true
   enabledChartField: proxy.service.enabled
   label: jupyterHub
   description: JupyterHub service
