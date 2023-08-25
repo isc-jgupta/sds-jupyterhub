@@ -84,7 +84,7 @@ hub:
   extraVolumeMounts: []
   image:
     name: jupyterhub/k8s-hub
-    tag: "3.0.1"
+    tag: 3.0.3-0.dev.git.6306.h83f8ffdd
     pullPolicy:
     pullSecrets: []
   resources: {}
@@ -192,10 +192,7 @@ proxy:
     extraPorts: []
     loadBalancerIP:
     loadBalancerSourceRanges: []
-    enabled: "true"
-    loadBalancerDNSName: ""
     port: 10500
-
   # chp relates to the proxy pod, which is responsible for routing traffic based
   # on dynamic configuration sent from JupyterHub to CHP's REST API.
   chp:
@@ -309,7 +306,7 @@ proxy:
       allowPrivilegeEscalation: false
     image:
       name: jupyterhub/k8s-secret-sync
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     resources: {}
@@ -349,7 +346,7 @@ singleuser:
   networkTools:
     image:
       name: jupyterhub/k8s-network-tools
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     resources: {}
@@ -400,8 +397,10 @@ singleuser:
       volumeNameTemplate: volume-{username}{servername}
       storageAccessModes: [ReadWriteOnce]
   image:
-    name: jupyterhub/k8s-singleuser-sample
-    tag: "3.0.1"
+    #name: jupyterhub/k8s-singleuser-sample
+    #tag: "3.0.3-0.dev.git.6306.h83f8ffdd"
+    name: jgupta0700/sds-jhub-v3
+    tag: "try7"
     pullPolicy:
     pullSecrets: []
   startTimeout: 300
@@ -422,7 +421,7 @@ singleuser:
 # scheduling relates to the user-scheduler pods and user-placeholder pods.
 scheduling:
   userScheduler:
-    enabled: false
+    enabled: true
     revisionHistoryLimit:
     replicas: 2
     logLevel: 4
@@ -610,7 +609,7 @@ prePuller:
     # image and the configuration below relates to the hook-image-awaiter Job
     image:
       name: jupyterhub/k8s-image-awaiter
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     containerSecurityContext:
@@ -672,8 +671,7 @@ cull:
   maxAge: 0 # --max-age
 
 debug:
-  enabled: true 
+  enabled: false
 
 global:
   safeToShowValues: false
-
