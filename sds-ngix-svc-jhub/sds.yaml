@@ -4,10 +4,10 @@ endpoints:
   group: Services
   description: Deployable jupyterhub service
   type: browsing
-  url: http://localhost:10500/hub/login?next=%2Fhub%2F
+  url: url: http://{externalService.host}:{externalService.port}
   contexts: 
   - manage
-  visibility: internal
+  visibility: external
   presentation: link
   externalService: proxy-public
 externalServicesDeclarations: 
