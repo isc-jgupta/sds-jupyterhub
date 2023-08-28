@@ -7,7 +7,7 @@ endpoints:
   url: http://localhost:10500/hub/login?next=%2Fhub%2F
   contexts: 
   - manage
-  visibility: external
+  visibility: internal
   presentation: link
   externalService: proxy-public
 externalServicesDeclarations: 
