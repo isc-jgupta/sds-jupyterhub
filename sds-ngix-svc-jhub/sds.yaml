@@ -4,7 +4,7 @@ endpoints:
   group: Services
   description: Deployable jupyterhub service
   type: browsing
-  url: https://gettingstarted.intersystems.com
+  url: http://localhost:10500/hub/login?next=%2Fhub%2F
   contexts: 
   - manage
   visibility: foreign
