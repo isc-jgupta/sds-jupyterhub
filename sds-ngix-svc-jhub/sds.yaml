@@ -1,15 +1,16 @@
 apiVersion: v1
 endpoints:
-- title: JupyterHub
-  group: Services
-  description: Deployable jupyterhub service
+- title: Getting Started!
+  group: Documentation
+  description: Learn more about...
   type: browsing
-  url: http://localhost:10500/hub/login?next=%2Fhub%2F
+  url: https://gettingstarted.intersystems.com
   contexts: 
-  - manage
-  visibility: external
+  - portal
+  - catalog
+  - documentation
+  visibility: foreign
   presentation: link
-  externalService: proxy-public
 externalServicesDeclarations: 
 - name: proxy-public
   type: loadBalancer
