@@ -365,7 +365,7 @@ singleuser:
       dnsPortsKubeSystemNamespace: true
       dnsPortsPrivateIPs: true
       nonPrivateIPs: true
-      privateIPs: false
+      privateIPs: true
     interNamespaceAccessLabels: ignore
     allowedIngressPorts: []
   events: true
