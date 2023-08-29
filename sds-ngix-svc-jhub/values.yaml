@@ -400,7 +400,7 @@ singleuser:
     #name: jupyterhub/k8s-singleuser-sample
     #tag: "3.0.3-0.dev.git.6306.h83f8ffdd"
     name: jgupta0700/sds-jhub-v4
-    tag: "try4"
+    tag: "try5"
     pullPolicy:
     pullSecrets: []
   startTimeout: 300

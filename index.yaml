@@ -28,7 +28,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T11:46:33.1190019-04:00"
+    created: "2023-08-29T11:52:34.9021213-04:00"
     description: Multi-user Jupyter installation
     digest: 8babcb85e4f04a5c83accf3ec3d5b3574e1ad6bee99216eed26e9df5e8beaac6
     home: https://z2jh.jupyter.org
@@ -76,7 +76,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T11:46:33.1158687-04:00"
+    created: "2023-08-29T11:52:34.8984588-04:00"
     description: Multi-user Jupyter installation
     digest: fc47ec1ee46ca211672d35178f64e0321467a73a9f60ad337a22582be1f88b28
     home: https://z2jh.jupyter.org
@@ -124,7 +124,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T11:46:33.1111638-04:00"
+    created: "2023-08-29T11:52:34.8952328-04:00"
     description: Multi-user Jupyter installation
     digest: 4eb80763c49189554902431e0730d7a05a5e28f323e8c388c095459566153a25
     home: https://z2jh.jupyter.org
@@ -172,7 +172,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T11:46:33.1079317-04:00"
+    created: "2023-08-29T11:52:34.8888699-04:00"
     description: Multi-user Jupyter installation
     digest: 57d2a14ee4ce87eb01959bead2a806f2f9cd735b76b4f5468e284ea8e8b5edd1
     home: https://z2jh.jupyter.org
@@ -220,9 +220,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T11:46:33.1026943-04:00"
+    created: "2023-08-29T11:52:34.8857282-04:00"
     description: Multi-user Jupyter installation
-    digest: a0ea73326a1502b7e5c15b0cefbe59a6f515f402956d6dd4a21ddb84fb8bc34b
+    digest: cd6404a059d98e606d7e3c96447dce6ab4748ee200c8a6b4e2e67239913ef108
     home: https://z2jh.jupyter.org
     icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
     keywords:
@@ -241,4 +241,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-3.0.4.tgz
     version: 3.0.4
-generated: "2023-08-29T11:46:33.0990464-04:00"
+generated: "2023-08-29T11:52:34.8808191-04:00"
