@@ -28,9 +28,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-08-29T09:19:14.2883714-04:00"
+    created: "2023-08-29T09:46:50.3942555-04:00"
     description: Multi-user Jupyter installation
-    digest: 1a4fa20ef6600025d24e1f1cc10631b25d1564cb4f513d09e5cf3c60b5bdd121
+    digest: 1b56ea77e84c423ce73f5a578649ce7282088b25b696517f566b9555769cb668
     home: https://z2jh.jupyter.org
     icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
     keywords:
@@ -49,4 +49,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-3.0.3.tgz
     version: 3.0.3
-generated: "2023-08-29T09:19:14.2852164-04:00"
+generated: "2023-08-29T09:46:50.3884343-04:00"
