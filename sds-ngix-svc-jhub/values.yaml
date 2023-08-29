@@ -102,7 +102,7 @@ hub:
     maxUnavailable:
     minAvailable: 1
   networkPolicy:
-    enabled: false
+    enabled: true
     ingress: []
     egress: []
     egressAllowRules:
@@ -229,7 +229,7 @@ proxy:
     nodeSelector: {}
     tolerations: []
     networkPolicy:
-      enabled: false
+      enabled: true
       ingress: []
       egress: []
       egressAllowRules:
@@ -278,7 +278,7 @@ proxy:
     tolerations: []
     extraPorts: []
     networkPolicy:
-      enabled: false
+      enabled: true
       ingress: []
       egress: []
       egressAllowRules:
