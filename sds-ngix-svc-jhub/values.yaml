@@ -404,21 +404,13 @@ singleuser:
     pullPolicy:
     pullSecrets: []
   profileList:
-    - display_name: "Minimal environment"
-      description: "To avoid too much bells and whistles: Python."
+    - display_name: "Data Science Environment "
+      description: "Notebooks come preinstalled with basic Data Science libraries as well as PySpark and IRIS JDBC driver"
       default: true
-    - display_name: "Datascience environment"
-      description: "If you want the additional bells and whistles: Python, R, and Julia."
+    - display_name: "Minimal Notebook"
+      description: "Bare bones notebook with only IRIS JDBC driver installed "
       kubespawner_override:
-        image: jupyter/datascience-notebook:2343e33dec46
-    - display_name: "Spark environment"
-      description: "The Jupyter Stacks spark image!"
-      kubespawner_override:
-        image: jupyter/all-spark-notebook:2343e33dec46
-    - display_name: "Learning Data Science"
-      description: "Datascience Environment with Sample Notebooks"
-      kubespawner_override:
-        image: jupyter/datascience-notebook:2343e33dec46
+        image: jgupta0700/sds-jhub-v4:try6
 
   startTimeout: 300
   cpu:
@@ -432,8 +424,7 @@ singleuser:
     guarantees: {}
   cmd: jupyterhub-singleuser
   defaultUrl:
-  extraPodConfig: {}
-  profileList: []
+  extraPodConfig: {}  
 
 # scheduling relates to the user-scheduler pods and user-placeholder pods.
 scheduling:

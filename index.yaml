@@ -28,7 +28,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2865676-04:00"
+    created: "2023-09-05T23:14:27.6529776-04:00"
     description: Multi-user Jupyter installation
     digest: 8babcb85e4f04a5c83accf3ec3d5b3574e1ad6bee99216eed26e9df5e8beaac6
     home: https://z2jh.jupyter.org
@@ -76,7 +76,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2349688-04:00"
+    created: "2023-09-05T23:14:27.6096908-04:00"
     description: Multi-user Jupyter installation
     digest: 2616f7c6f248a4a443e08884bc9016ec1ef2d070743f9734df21a8431a9c7b09
     home: https://z2jh.jupyter.org
@@ -124,7 +124,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2299223-04:00"
+    created: "2023-09-05T23:14:27.602345-04:00"
     description: Multi-user Jupyter installation
     digest: 3b7e75025a5e831e62c241968e722b942eefc8dc909ea3572d044b57580bbcfe
     home: https://z2jh.jupyter.org
@@ -172,7 +172,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2809973-04:00"
+    created: "2023-09-05T23:14:27.644526-04:00"
     description: Multi-user Jupyter installation
     digest: fc47ec1ee46ca211672d35178f64e0321467a73a9f60ad337a22582be1f88b28
     home: https://z2jh.jupyter.org
@@ -220,7 +220,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2703002-04:00"
+    created: "2023-09-05T23:14:27.6360633-04:00"
     description: Multi-user Jupyter installation
     digest: 4eb80763c49189554902431e0730d7a05a5e28f323e8c388c095459566153a25
     home: https://z2jh.jupyter.org
@@ -268,7 +268,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2615648-04:00"
+    created: "2023-09-05T23:14:27.6245146-04:00"
     description: Multi-user Jupyter installation
     digest: 57d2a14ee4ce87eb01959bead2a806f2f9cd735b76b4f5468e284ea8e8b5edd1
     home: https://z2jh.jupyter.org
@@ -316,9 +316,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-05T16:43:23.2535772-04:00"
+    created: "2023-09-05T23:14:27.6165338-04:00"
     description: Multi-user Jupyter installation
-    digest: 00dcba5147899c343446d9e977a3063f4312d07a9613c340cc0c17526d25393e
+    digest: 9e8fec7655f2582bc11c59b54a433c124488893a638707c7a4b3bbacee5b9ffb
     home: https://z2jh.jupyter.org
     icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
     keywords:
@@ -337,4 +337,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-3.0.4.tgz
     version: 3.0.4
-generated: "2023-09-05T16:43:23.2189897-04:00"
+generated: "2023-09-05T23:14:27.5902879-04:00"
