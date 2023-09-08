@@ -84,7 +84,7 @@ hub:
   extraVolumeMounts: []
   image:
     name: jupyterhub/k8s-hub
-    tag: "3.0.1"
+    tag: 3.0.3-0.dev.git.6306.h83f8ffdd
     pullPolicy:
     pullSecrets: []
   resources: {}
@@ -135,7 +135,7 @@ hub:
     # restarts it if needed. To become unready following startup serves no
     # purpose as there are no other pod to fallback to in our non-HA deployment.
     enabled: true
-    initialDelaySeconds: 0
+    initialDelaySeconds: 5
     periodSeconds: 2
     failureThreshold: 1000
     timeoutSeconds: 1
@@ -192,10 +192,7 @@ proxy:
     extraPorts: []
     loadBalancerIP:
     loadBalancerSourceRanges: []
-    enabled: true
-    loadBalancerDNSName: ""
     port: 10500
-
   # chp relates to the proxy pod, which is responsible for routing traffic based
   # on dynamic configuration sent from JupyterHub to CHP's REST API.
   chp:
@@ -309,7 +306,7 @@ proxy:
       allowPrivilegeEscalation: false
     image:
       name: jupyterhub/k8s-secret-sync
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     resources: {}
@@ -349,7 +346,7 @@ singleuser:
   networkTools:
     image:
       name: jupyterhub/k8s-network-tools
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     resources: {}
@@ -359,7 +356,7 @@ singleuser:
     blockWithIptables: true
     ip: 169.254.169.254
   networkPolicy:
-    enabled: true
+    enabled: false
     ingress: []
     egress: []
     egressAllowRules:
@@ -400,10 +397,21 @@ singleuser:
       volumeNameTemplate: volume-{username}{servername}
       storageAccessModes: [ReadWriteOnce]
   image:
-    name: jupyterhub/k8s-singleuser-sample
-    tag: "3.0.1"
+    #name: jupyterhub/k8s-singleuser-sample
+    #tag: "3.0.3-0.dev.git.6306.h83f8ffdd"
+    name: jgupta0700/sds-jhub-v5
+    tag: "test1"
     pullPolicy:
     pullSecrets: []
+  profileList:
+    - display_name: "Data Science Environment "
+      description: "Notebooks come preinstalled with basic Data Science libraries as well as PySpark and IRIS JDBC driver"
+      default: true
+    - display_name: "Minimal Notebook"
+      description: "Bare bones notebook with only IRIS JDBC driver installed "
+      kubespawner_override:
+        image: jgupta0700/sds-jhub-v4:try6
+
   startTimeout: 300
   cpu:
     limit:
@@ -416,8 +424,7 @@ singleuser:
     guarantees: {}
   cmd: jupyterhub-singleuser
   defaultUrl:
-  extraPodConfig: {}
-  profileList: []
+  extraPodConfig: {}  
 
 # scheduling relates to the user-scheduler pods and user-placeholder pods.
 scheduling:
@@ -610,7 +617,7 @@ prePuller:
     # image and the configuration below relates to the hook-image-awaiter Job
     image:
       name: jupyterhub/k8s-image-awaiter
-      tag: "3.0.1"
+      tag: "3.0.3-0.dev.git.6305.h1c9a12cd"
       pullPolicy:
       pullSecrets: []
     containerSecurityContext:
@@ -676,4 +683,3 @@ debug:
 
 global:
   safeToShowValues: false
-
