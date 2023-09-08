@@ -32,7 +32,7 @@ entries:
     description: Multi-user Jupyter installation
     digest: 57be1fb6b8d7957be7d44c8b8187404dd1ab1e0023282ff8a51379ca21517ede
     home: https://z2jh.jupyter.org
-    icon: https://jg435.github.io/sds-jhub/sds-JupyterHub/
+    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
     keywords:
     - jupyter
     - jupyterhub
@@ -80,7 +80,7 @@ entries:
     description: Multi-user Jupyter installation
     digest: f998ccce00d7e98762b1ac399fb4aa8445a8c1a695e7518b8903cc0a8a18943b
     home: https://z2jh.jupyter.org
-    icon: https://jg435.github.io/sds-jhub/sds-JupyterHub/
+    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
     keywords:
     - jupyter
     - jupyterhub
@@ -128,7 +128,7 @@ entries:
     description: Multi-user Jupyter installation
     digest: 953d9a52108122ef85950ffac113d6ac70c6d18640a88da88d4e025e2b501de1
     home: https://z2jh.jupyter.org
-    icon: https://jg435.github.io/sds-jhub/sds-JupyterHub/
+    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
     keywords:
     - jupyter
     - jupyterhub
@@ -176,7 +176,7 @@ entries:
     description: Multi-user Jupyter installation
     digest: 6b9790072c0a49da98d9f70debb3a85bbe3a885e65ce780fcd29c383079cca1a
     home: https://z2jh.jupyter.org
-    icon: https://jg435.github.io/sds-jhub/sds-JupyterHub/
+    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
     keywords:
     - jupyter
     - jupyterhub
