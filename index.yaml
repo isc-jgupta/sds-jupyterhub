@@ -28,9 +28,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-07T10:10:46.37953-07:00"
+    created: "2023-09-08T00:46:44.4098492-04:00"
     description: Multi-user Jupyter installation
-    digest: 57be1fb6b8d7957be7d44c8b8187404dd1ab1e0023282ff8a51379ca21517ede
+    digest: 1b18f01b5c56b796681c0306fe4082fb2942c380d1c0befddcf89d00699f3e43
     home: https://z2jh.jupyter.org
     icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
     keywords:
@@ -49,150 +49,6 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-jupyterhub-3.0.80.tgz
     version: 3.0.80
-  - annotations:
-      artifacthub.io/images: |-
-        - image: jupyterhub/configurable-http-proxy:4.5.6
-          name: configurable-http-proxy
-        - image: jupyterhub/k8s-hub:3.0.1
-          name: k8s-hub
-        - image: jupyterhub/k8s-image-awaiter:3.0.1
-          name: k8s-image-awaiter
-        - image: jupyterhub/k8s-network-tools:3.0.1
-          name: k8s-network-tools
-        - image: jupyterhub/k8s-secret-sync:3.0.1
-          name: k8s-secret-sync
-        - image: jupyterhub/k8s-singleuser-sample:3.0.1
-          name: k8s-singleuser-sample
-        - image: registry.k8s.io/kube-scheduler:v1.26.7
-          name: kube-scheduler
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: traefik:v2.10.4
-          name: traefik
-      intersystems/sds-category: sample
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: JupyterHub
-    apiVersion: v2
-    appVersion: 4.0.2
-    created: "2023-09-07T10:10:46.376692-07:00"
-    description: Multi-user Jupyter installation
-    digest: f998ccce00d7e98762b1ac399fb4aa8445a8c1a695e7518b8903cc0a8a18943b
-    home: https://z2jh.jupyter.org
-    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
-    keywords:
-    - jupyter
-    - jupyterhub
-    - z2jh
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: erik@sundellopensource.se
-      name: Erik Sundell
-    - name: Simon Li
-      url: https://github.com/manics/
-    name: sds-jupyterhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
-    urls:
-    - https://jg435.github.io/sds-jhub/sds-jupyterhub-3.0.77.tgz
-    version: 3.0.77
-  - annotations:
-      artifacthub.io/images: |-
-        - image: jupyterhub/configurable-http-proxy:4.5.6
-          name: configurable-http-proxy
-        - image: jupyterhub/k8s-hub:3.0.1
-          name: k8s-hub
-        - image: jupyterhub/k8s-image-awaiter:3.0.1
-          name: k8s-image-awaiter
-        - image: jupyterhub/k8s-network-tools:3.0.1
-          name: k8s-network-tools
-        - image: jupyterhub/k8s-secret-sync:3.0.1
-          name: k8s-secret-sync
-        - image: jupyterhub/k8s-singleuser-sample:3.0.1
-          name: k8s-singleuser-sample
-        - image: registry.k8s.io/kube-scheduler:v1.26.7
-          name: kube-scheduler
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: traefik:v2.10.4
-          name: traefik
-      intersystems/sds-category: sample
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: JupyterHub
-    apiVersion: v2
-    appVersion: 4.0.2
-    created: "2023-09-07T10:10:46.374566-07:00"
-    description: Multi-user Jupyter installation
-    digest: 953d9a52108122ef85950ffac113d6ac70c6d18640a88da88d4e025e2b501de1
-    home: https://z2jh.jupyter.org
-    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
-    keywords:
-    - jupyter
-    - jupyterhub
-    - z2jh
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: erik@sundellopensource.se
-      name: Erik Sundell
-    - name: Simon Li
-      url: https://github.com/manics/
-    name: sds-jupyterhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
-    urls:
-    - https://jg435.github.io/sds-jhub/sds-jupyterhub-3.0.70.tgz
-    version: 3.0.70
-  - annotations:
-      artifacthub.io/images: |-
-        - image: jupyterhub/configurable-http-proxy:4.5.6
-          name: configurable-http-proxy
-        - image: jupyterhub/k8s-hub:3.0.1
-          name: k8s-hub
-        - image: jupyterhub/k8s-image-awaiter:3.0.1
-          name: k8s-image-awaiter
-        - image: jupyterhub/k8s-network-tools:3.0.1
-          name: k8s-network-tools
-        - image: jupyterhub/k8s-secret-sync:3.0.1
-          name: k8s-secret-sync
-        - image: jupyterhub/k8s-singleuser-sample:3.0.1
-          name: k8s-singleuser-sample
-        - image: registry.k8s.io/kube-scheduler:v1.26.7
-          name: kube-scheduler
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: traefik:v2.10.4
-          name: traefik
-      intersystems/sds-category: sample
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: JupyterHub
-    apiVersion: v2
-    appVersion: 4.0.2
-    created: "2023-09-07T10:10:46.372114-07:00"
-    description: Multi-user Jupyter installation
-    digest: 6b9790072c0a49da98d9f70debb3a85bbe3a885e65ce780fcd29c383079cca1a
-    home: https://z2jh.jupyter.org
-    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-JupyterHub/files/cp-jhub-logo-final.png
-    keywords:
-    - jupyter
-    - jupyterhub
-    - z2jh
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: erik@sundellopensource.se
-      name: Erik Sundell
-    - name: Simon Li
-      url: https://github.com/manics/
-    name: sds-jupyterhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
-    urls:
-    - https://jg435.github.io/sds-jhub/sds-jupyterhub-3.0.66.tgz
-    version: 3.0.66
   sds-ngix-svc-jhub:
   - annotations:
       artifacthub.io/images: |-
@@ -221,7 +77,7 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-07T10:10:46.382986-07:00"
+    created: "2023-09-08T00:46:44.4204726-04:00"
     description: Multi-user Jupyter installation
     digest: d7378e9ff9cb40b92a28879b3530ebb80c42aa99ed62c11f916c73d60d46a385
     home: https://z2jh.jupyter.org
@@ -242,4 +98,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-3.0.4.tgz
     version: 3.0.4
-generated: "2023-09-07T10:10:46.36852-07:00"
+generated: "2023-09-08T00:46:44.39414-04:00"
