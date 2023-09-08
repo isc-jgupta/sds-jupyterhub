@@ -28,9 +28,9 @@ entries:
       intersystems/sds-title: JupyterHub
     apiVersion: v2
     appVersion: 4.0.2
-    created: "2023-09-08T10:16:03.7559558-04:00"
+    created: "2023-09-08T10:32:12.0729163-04:00"
     description: Multi-user Jupyter installation
-    digest: 346e145d1178b275b10313b6d8349f782a24b90dbe395149cd4a05dc67cff208
+    digest: f1d5de5ab205c2287ee3151d09d371de90c9a15c29a3b9e7d2a3f68c6f08f5aa
     home: https://z2jh.jupyter.org
     icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
     keywords:
@@ -49,53 +49,4 @@ entries:
     urls:
     - https://jg435.github.io/sds-jhub/sds-jupyter-3.0.10.tgz
     version: 3.0.10
-  sds-ngix-svc-jhub:
-  - annotations:
-      artifacthub.io/images: |-
-        - image: jupyterhub/configurable-http-proxy:4.5.6
-          name: configurable-http-proxy
-        - image: jupyterhub/k8s-hub:3.0.1
-          name: k8s-hub
-        - image: jupyterhub/k8s-image-awaiter:3.0.1
-          name: k8s-image-awaiter
-        - image: jupyterhub/k8s-network-tools:3.0.1
-          name: k8s-network-tools
-        - image: jupyterhub/k8s-secret-sync:3.0.1
-          name: k8s-secret-sync
-        - image: jupyterhub/k8s-singleuser-sample:3.0.1
-          name: k8s-singleuser-sample
-        - image: registry.k8s.io/kube-scheduler:v1.26.7
-          name: kube-scheduler
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: registry.k8s.io/pause:3.9
-          name: pause
-        - image: traefik:v2.10.4
-          name: traefik
-      intersystems/sds-category: sample
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: JupyterHub
-    apiVersion: v2
-    appVersion: 4.0.2
-    created: "2023-09-08T10:16:03.7652047-04:00"
-    description: Multi-user Jupyter installation
-    digest: 44064bb0c2ee125b280b0ce27ac9c9976fd08382a7073b94046497964417b0cc
-    home: https://z2jh.jupyter.org
-    icon: https://raw.githubusercontent.com/jg435/sds-jhub/main/sds-ngix-svc-jhub/files/cp-jhub-logo-final.png
-    keywords:
-    - jupyter
-    - jupyterhub
-    - z2jh
-    kubeVersion: '>=1.23.0-0'
-    maintainers:
-    - email: erik@sundellopensource.se
-      name: Erik Sundell
-    - name: Simon Li
-      url: https://github.com/manics/
-    name: sds-ngix-svc-jhub
-    sources:
-    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
-    urls:
-    - https://jg435.github.io/sds-jhub/sds-ngix-svc-jhub-3.0.4.tgz
-    version: 3.0.4
-generated: "2023-09-08T10:16:03.7485623-04:00"
+generated: "2023-09-08T10:32:12.0629327-04:00"
